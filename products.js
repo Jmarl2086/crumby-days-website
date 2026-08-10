@@ -8,9 +8,9 @@ const STORE = {
     {id:"more", name:"More", status:"coming"}
   ],
   products: [
-    {id:"classic-chip", category:"cookies", name:"Classic Chocolate Chip", price:3.00, image:"assets/cookie-placeholder.jpg", description:"Soft-centered chocolate chip cookie."},
-    {id:"double-choc", category:"cookies", name:"Double Chocolate Chunk", price:3.25, image:"assets/cookie-placeholder.jpg", description:"Rich chocolate cookie with chocolate chunks."},
-    {id:"oatmeal-cranberry", category:"cookies", name:"Oatmeal Cranberry", price:3.25, image:"assets/cookie-placeholder.jpg", description:"Chewy oatmeal cookie with dried cranberries."},
-    {id:"white-macadamia", category:"cookies", name:"White Chocolate Macadamia", price:3.25, image:"assets/cookie-placeholder.jpg", description:"Buttery cookie with white chocolate and macadamias."}
+    {id:"classic-chip", category:"cookies", name:"Salted Chocolate Chip", price:3.50, image:"assets/cookie_hq01.png", description:"Soft-centered chocolate chip cookie."},
+    {id:"double-choc", category:"cookies", name:"Double Chocolate Chunk", price:4.25, image:"assets/Double-Chocolate-Chip-Cookies-stock.jpg", description:"Soft cookie base backed with double chocolate."},
+    {id:"coco-nut", category:"cookies", name:"Coco(nut) Butter Cookies", price:3.50, image:"assets/coconut-cookie-stock.png", description:"Decadent butter cookies with shredded coconut on top."},
+    {id:"future-offering", category:"cookies", name:"Future offerings TBD", price:5.75, image:"assets/istockphoto-oatmeal.jpg", description:"Maybe an oatmeal cookie?."}
   ]
 };
