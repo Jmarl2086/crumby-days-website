@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>No Crumby Days, Just Crumby Cookies</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="topbar">Delivery on weekends only</div>
+  <header>
+    <a class="logo" href="#">No Crumby Days Ohio <span>BAKERY</span></a>
+    <nav><a href="#shop">Shop</a><a href="#about">About</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></nav>
+    <button class="cart-button" onclick="openCart()">Cart (<span id="cartCount">0</span>)</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Made fresh. Made for you.</p>
+        <h1>Handmade goodies delivered with love.</h1>
+        <p>Fresh-baked cookies and treats made with quality ingredients and lots of care.</p>
+        <a class="button" href="#shop">Shop cookies</a>
+        <div class="notice"><strong>Weekend delivery</strong><br>Orders are delivered Saturday and Sunday.</div>
+      </div>
+      <img src="assets/hero-cookies.jpg" alt="Fresh chocolate chip cookies">
+    </section>
+
+    <section class="section" id="shop">
+      <h2>Shop by category</h2>
+      <div id="categories" class="categories"></div>
+      <h2>Products</h2>
+      <div id="products" class="products"></div>
+    </section>
+
+    <section class="features">
+      <div><strong>Quality ingredients</strong><span>We use only the best.</span></div>
+      <div><strong>Made by hand</strong><span>Every batch is carefully prepared.</span></div>
+      <div><strong>Weekend delivery</strong><span>Fresh to your door.</span></div>
+      <div><strong>Secure checkout</strong><span>Easy online ordering.</span></div>
+    </section>
+
+    <section class="section" id="about"><h2>About us</h2><p>Small-batch baked goods made for sharing, gifting, and enjoying at home.</p></section>
+    <section class="section" id="faq"><h2>FAQ</h2><p><strong>When do you deliver?</strong> Weekend delivery is currently available Saturday and Sunday.</p></section>
+    <section class="section" id="contact"><h2>Contact</h2><p>Ohhh wouldn't you like to know :) </p></section>
+  </main>
+
+  <aside id="cart" class="cart" aria-label="Shopping cart">
+    <button class="close" onclick="closeCart()">×</button>
+    <h2>Your order</h2>
+    <div id="cartItems"></div>
+    <div class="cart-total">Total: $<span id="cartTotal">0.00</span></div>
+    <button class="button full" onclick="checkout()">Continue to checkout</button>
+    <p class="small">Checkout is ready to connect to Stripe, Square, Shopify, or another payment provider.</p>
+  </aside>
+  <div id="overlay" class="overlay" onclick="closeCart()"></div>
+
+  <script src="products.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
