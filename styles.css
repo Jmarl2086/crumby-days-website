@@ -31,7 +31,7 @@
 {display:grid;grid-template-columns:repeat(4,1fr);gap:20px;padding:35px 6%;background:#f8eee9}.features div
 {display:flex;flex-direction:column;gap:7px}.features span,.small
 {font-size:13px;color:#725e57}.cart
-{position:fixed;right:-420px;top:0;width:400px;max-width:90%;height:100vh;background:#fff;z-index:10;padding:30px;transition:.25s;box-shadow:-10px 0 30px #0002;overflow:auto}.cart.open
+{position:fixed;right:-420px;top:0;width:400px;max-width:90%;height:100vh;background:#725e57;z-index:10;padding:30px;transition:.25s;box-shadow:-10px 0 30px #0002;overflow:auto}.cart.open
 {right:0}.overlay
 {display:none;position:fixed;inset:0;background:#0006;z-index:9}.overlay.open
 {display:block}.close
