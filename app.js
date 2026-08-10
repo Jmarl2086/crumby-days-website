@@ -34,6 +34,6 @@ function closeCart(){cartEl().classList.remove("open");overlay.classList.remove(
 function cartEl(){return document.getElementById("cart")}
 function checkout(){
   if(!cart.length){alert("Your cart is empty.");return}
-  alert("Checkout connection needed. Connect this button to your payment/order system before launch.");
+  alert("Checkout connection unavailable at this time.");
 }
 render();
