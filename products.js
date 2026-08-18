@@ -8,7 +8,7 @@ const STORE = {
   ],
   products: [
     {id:"classic-chip", category:"cookies", name:"Salted Choc. Chip(12)", price:17.99, image:"assets/cookie_hq01.png", description:"You're a true cookie connoisseur, and you deserve decadence. Here at last."},
-    {id:"double-choc", category:"cookies", name:"Salted Choc. Chip(36)", price:39.99, image:"assets/cookie_hq01.png", description:"Soft cookie base backed with double chocolate."},
+    {id:"double-choc", category:"cookies", name:"Salted Choc. Chip(36)", price:39.99, image:"assets/cookie_hq01.png", description:"A salty soft bite with a smooth chocolate finish."},
     {id:"coco-nut", category:"cookies", name:" Coconut Cookie(12)", price:14.99, image:"assets/coconut-cookie-stock.png", description:"Coconut flakes toasted atop a smooth, buttery cookie base."},
     {id:"future-offering", category:"cookies", name:" Coconut Cookie(36)", price:38.99, image:"assets/coconut-cookie-stock.png", description:"Buttery smooth cookies topped with lightly toasted coconut flakes."}
   ]
