@@ -3,19 +3,10 @@
 const STORE = {
   categories: [
     {id:"cookies", name:"Cookies", status:"available"},
-    {id:"breakfast-breads", name:"Breakfast Breads", status:"coming"},
-    {id:"custom-cakes", name:"Custom Cakes", status:"coming"},
-    {id:"more", name:"More", status:"coming"},
-    {id:"more2", name:"Category 5", status:"coming"}
   ],
   products: [
-    {id:"classic-chip", category:"cookies", name:"Salted Chocolate Chip", price:3.50, image:"assets/cookie_hq01.png", description:"Soft-centered chocolate chip cookie."},
-    {id:"double-choc", category:"cookies", name:"Double Chocolate Chunk", price:4.25, image:"assets/Double-Chocolate-Chip-Cookies-stock.jpg", description:"Soft cookie base backed with double chocolate."},
-    {id:"coco-nut", category:"cookies", name:"Coco(nut) Butter Cookies", price:3.50, image:"assets/coconut-cookie-stock.png", description:"Decadent butter cookies with shredded coconut on top."},
-    {id:"future-offering", category:"cookies", name:"Future offerings TBD", price:5.75, image:"assets/istockphoto-oatmeal.jpg", description:"Maybe an oatmeal cookie?."},
-    {id:"line5", category:"cookies", name:"Item 5", price:5.75, image:"assets/istockphoto-oatmeal.jpg", description:"Needed to test desktop and mobile versions."},
-    {id:"line5", category:"cookies", name:"Item 6", price:5.75, image:"assets/istockphoto-oatmeal.jpg", description:"Needed to test desktop and mobile versions."},
-    {id:"line5", category:"cookies", name:"Item 7", price:5.75, image:"assets/istockphoto-oatmeal.jpg", description:"Needed to test desktop and mobile versions."},
-    {id:"line5", category:"cookies", name:"Item 8", price:5.75, image:"assets/istockphoto-oatmeal.jpg", description:"Needed to test desktop and mobile versions."}
-  ]
+    {id:"classic-chip", category:"cookies", name:"Salted Choc. Chip(12)", price:17.99, image:"assets/cookie_hq01.png", description:"You're a true cookie connoisseur, and you deserve decadence. Here at last."},
+    {id:"double-choc", category:"cookies", name:"Salted Choc. Chip(36)", price:39.99, image:"assets/cookie_hq01.png", description:"Soft cookie base backed with double chocolate."},
+    {id:"coco-nut", category:"cookies", name:" Coconut Cookie(12)", price:14.99, image:"assets/coconut-cookie-stock.png", description:"Coconut flakes toasted atop a smooth, buttery cookie base."},
+    {id:"future-offering", category:"cookies", name:" Coconut Cookie(36)", price:38.99, image:"assets/coconut-cookie-stock.png", description:"Buttery smooth cookies topped with lightly toasted coconut flakes."},
 };
