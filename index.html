@@ -7,11 +7,13 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="topbar">Delivery on weekends only</div>
+  <div class="topbar">Delivery on weekdays after 5pm</div>
   <header>
     <a class="logo" href="#">No Crumby Days Ohio <span>BAKERY</span></a>
     <nav><a href="#shop">Shop</a><a href="#about">About</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></nav>
+    <!-- 
     <button class="cart-button" onclick="openCart()">Cart (<span id="cartCount">0</span>)</button>
+    -->
   </header>
 
   <main>
@@ -21,7 +23,7 @@
         <h1>Delectable decadent desserts, delivered to your day.</h1>
         <p>Fresh-baked treats we hope you'll enjoy.</p>
         <a class="button" href="#shop">Shop cookies</a>
-        <div class="notice"><strong>Weekend delivery</strong><br>Orders are delivered Saturday and Sunday.</div>
+        <div class="notice"><strong>Evening delivery</strong><br>Orders are delivered after 5pm weekdays.</div>
       </div>
       <img src="assets/Seaisforcookie.png" alt="oops no image">
     </section>
@@ -35,17 +37,17 @@
 
     <section class="features">
       <div><strong>Fresh ingredients</strong><span>We use only the best.</span></div>
-      <div><strong>Made by hand</strong><span>Every batch is carefully prepared.</span></div>
-      <div><strong>Weekend delivery</strong><span>Fresh to your door.</span></div>
-      <div><strong>Secure checkout(coming soon)</strong><span>Easy online ordering.</span></div>
+      <div><strong>Made by hand</strong><span>Confidence, competence, and care.</span></div>
+      <div><strong>Evening delivery</strong><span>Fresh to your door.</span></div>
+      <div><strong>Checkout via Square</strong><span>Easy online ordering.</span></div>
     </section>
 
-    <section class="section" id="about"><h2>About us</h2><p>Small-batch baked goods made for sharing, gifting, and enjoying at home. \nNo crumby days, just crumby cookies. </p></section>
-    <section class="section" id="faq"><h2>FAQ</h2><p><strong>When do you deliver?</strong> Delivery is currently available Saturday and Sunday.</p></section>
+    <section class="section" id="about"><h2>About us</h2><p>Small-batch baked goods made for sharing, gifting, and enjoying at home. We open </p></section>
+    <section class="section" id="faq"><h2>FAQ</h2><p><strong>When do you deliver?</strong> Delivery is currently available after 5pm on weekdays.</p></section>
     <section class="section" id="phone"><h2>Phone</h2><p>(614) 547-2319</p></section>
     <section class="section" id="email"><h2>Email</h2><p>nocrumbydaysohio@gmail.com</p></section>
   </main>
-
+<!-- 
   <aside id="cart" class="cart" aria-label="Shopping cart">
     <button class="close" onclick="closeCart()">×</button>
     <h2>Your order</h2>
@@ -55,7 +57,7 @@
     <p class="small">Checkout is not ready yet, but we appreciate your interest!</p>
   </aside>
   <div id="overlay" class="overlay" onclick="closeCart()"></div>
-
+-->
   <script src="products.js"></script>
   <script src="app.js"></script>
 </body>
