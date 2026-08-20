@@ -9,7 +9,9 @@ function render(){
   products.innerHTML=STORE.products.map(p=>`<article class="product">
     <img src="${p.image}" alt="${p.name}">
     <div class="product-body"><h3>${p.name}</h3><p>${p.description}</p><div class="price">$${money(p.price)}</div>
-    <button onclick="addToCart('${p.id}')">Add to order</button></div></article>`).join("");
+    <button onclick="window.location.href='${p.orderUrl}'">
+    Order via Square
+</button></div></article>`).join("");
   renderCart();
 }
 function addToCart(id){
