@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>No Crumby Days, Just Crumby Cookies</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <main class="notice-page">
+    <section class="notice-card" aria-labelledby="order-title">
+      <p class="eyebrow">Online Ordering</p>
+      <h1 id="order-title">Online ordering is coming soon.</h1>
+      <p class="notice-message">
+        We're not quite ready for online orders yet, but we would love to set
+        up an order for you. Please give us a call or send us an email and
+        we'll be happy to help.
+      </p>
+
+      <div class="contact-options">
+        <a class="contact-button" href="mailto:YOUR-EMAIL@example.com">Email Us</a>
+        <a class="contact-button" href="tel:+15555555555">Call Us</a>
+      </div>
+
+      <p class="contact-details">
+        <a href="mailto:YOUR-EMAIL@example.com">YOUR-EMAIL@example.com</a><br>
+        <a href="tel:+15555555555">(555) 555-5555</a>
+      </p>
+
+      <a class="back-link" href="index.html">← Back to the bakery</a>
+    </section>
+  </main>
+
+  <style>
+    .notice-page {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 2rem 1rem;
+      box-sizing: border-box;
+    }
+    .notice-card {
+      width: min(100%, 650px);
+      text-align: center;
+      padding: clamp(2rem, 6vw, 4rem);
+      box-sizing: border-box;
+    }
+    .eyebrow {
+      margin: 0 0 .75rem;
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      font-size: .8rem;
+      font-weight: 700;
+    }
+    .notice-card h1 { margin: 0 0 1.25rem; }
+    .notice-message {
+      max-width: 540px;
+      margin: 0 auto 2rem;
+      line-height: 1.7;
+    }
+    .contact-options {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-bottom: 1.5rem;
+    }
+    .contact-button {
+      display: inline-block;
+      padding: .85rem 1.5rem;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .contact-details { line-height: 1.8; margin-bottom: 2rem; }
+    .contact-details a, .back-link { text-decoration: none; }
+    .back-link { font-weight: 600; }
+  </style>
+</body>
+</html>
